@@ -225,6 +225,7 @@ function showDashboard(isLoggedIn) {
 
   if (isLoggedIn) {
     setupReportTypeOptions();
+    checkAndShowSetupWizard();
   }
 }
 
